@@ -21,6 +21,7 @@
     <!-- Vendors CSS -->
     <link rel="stylesheet" href="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
     <link rel="stylesheet" href="../assets/vendor/libs/apex-charts/apex-charts.css" />
+    <link rel="stylesheet" href="../assets/vendor/libs/typeahead-js/typeahead.css" />
     <!-- Helpers -->
     <script src="../assets/vendor/js/helpers.js"></script>
     <script src="../assets/js/config.js"></script>
@@ -39,9 +40,11 @@
               </span>
               <span class="app-brand-text fw-bolder ms-2">Medical E-Card</span>
             </a>
-            <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
+            <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block" >
               <i class="bx bx-chevron-left bx-sm align-middle"></i>
             </a>
+
+
           </div>
           <div class="menu-inner-shadow"></div>
           <ul class="menu-inner py-1">
@@ -367,7 +370,7 @@
                           <div class="d-flex">
                             <div class="flex-shrink-0 me-3">
                               <div class="avatar">
-                                <img src="../../assets/img/avatars/9.png" alt="" class="w-px-40 h-auto rounded-circle">
+                                <img src="../../assets/img/avatars/2.png" alt="" class="w-px-40 h-auto rounded-circle">
                               </div>
                             </div>
                             <div class="flex-grow-1">
@@ -832,7 +835,7 @@
                     <div class="card-header d-flex align-items-center justify-content-between pb-0">
                       <div class="card-title mb-0">
                         <h5 class="m-0 me-2">Patients Medical Status</h5>
-                        <small class="text-muted">42.82k Total Sales</small>
+                        <small class="text-muted">42.82k Total Expenses</small>
                       </div>
                       <div class="dropdown">
                         <button
@@ -869,8 +872,8 @@
                           </div>
                           <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
                             <div class="me-2">
-                              <h6 class="mb-0">Electronic</h6>
-                              <small class="text-muted">Mobile, Earbuds, TV</small>
+                              <h6 class="mb-0">ROUTINE CHECK UP</h6>
+                              <small class="text-muted">Ordered Medicine</small>
                             </div>
                             <div class="user-progress">
                               <small class="fw-semibold">82.5k</small>
@@ -883,8 +886,8 @@
                           </div>
                           <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
                             <div class="me-2">
-                              <h6 class="mb-0">Fashion</h6>
-                              <small class="text-muted">T-shirt, Jeans, Shoes</small>
+                              <h6 class="mb-0">Brain</h6>
+                              <small class="text-muted">Ordered Medicine</small>
                             </div>
                             <div class="user-progress">
                               <small class="fw-semibold">23.8k</small>
@@ -897,8 +900,8 @@
                           </div>
                           <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
                             <div class="me-2">
-                              <h6 class="mb-0">Decor</h6>
-                              <small class="text-muted">Fine Art, Dining</small>
+                              <h6 class="mb-0">Heart</h6>
+                              <small class="text-muted">Ordered Medicine</small>
                             </div>
                             <div class="user-progress">
                               <small class="fw-semibold">849k</small>
@@ -913,11 +916,11 @@
                           </div>
                           <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
                             <div class="me-2">
-                              <h6 class="mb-0">Sports</h6>
-                              <small class="text-muted">Football, Cricket Kit</small>
+                              <h6 class="mb-0">Blood</h6>
+                              <small class="text-muted">Ordered Medicine</small>
                             </div>
                             <div class="user-progress">
-                              <small class="fw-semibold">99</small>
+                              <small class="fw-semibold">99K</small>
                             </div>
                           </div>
                         </li>
@@ -1024,7 +1027,7 @@
                             </div>
                             <div class="user-progress d-flex align-items-center gap-1">
                               <h6 class="mb-0">+82.6</h6>
-                              <span class="text-muted">USD</span>
+                              <span class="text-muted">Rs</span>
                             </div>
                           </div>
                         </li>
@@ -1039,7 +1042,7 @@
                             </div>
                             <div class="user-progress d-flex align-items-center gap-1">
                               <h6 class="mb-0">+270.69</h6>
-                              <span class="text-muted">USD</span>
+                              <span class="text-muted">Rs</span>
                             </div>
                           </div>
                         </li>
@@ -1054,7 +1057,7 @@
                             </div>
                             <div class="user-progress d-flex align-items-center gap-1">
                               <h6 class="mb-0">+637.91</h6>
-                              <span class="text-muted">USD</span>
+                              <span class="text-muted">Rs</span>
                             </div>
                           </div>
                         </li>
@@ -1069,7 +1072,7 @@
                             </div>
                             <div class="user-progress d-flex align-items-center gap-1">
                               <h6 class="mb-0">-838.71</h6>
-                              <span class="text-muted">USD</span>
+                              <span class="text-muted">Rs</span>
                             </div>
                           </div>
                         </li>
@@ -1080,11 +1083,11 @@
                           <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
                             <div class="me-2">
                               <small class="text-muted d-block mb-1">Wallet</small>
-                              <h6 class="mb-0">Starbucks</h6>
+                              <h6 class="mb-0">Medicine</h6>
                             </div>
                             <div class="user-progress d-flex align-items-center gap-1">
                               <h6 class="mb-0">+203.33</h6>
-                              <span class="text-muted">USD</span>
+                              <span class="text-muted">Rs</span>
                             </div>
                           </div>
                         </li>
@@ -1095,11 +1098,11 @@
                           <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
                             <div class="me-2">
                               <small class="text-muted d-block mb-1">Mastercard</small>
-                              <h6 class="mb-0">Ordered Food</h6>
+                              <h6 class="mb-0">Ordered Medicine</h6>
                             </div>
                             <div class="user-progress d-flex align-items-center gap-1">
                               <h6 class="mb-0">-92.45</h6>
-                              <span class="text-muted">USD</span>
+                              <span class="text-muted">Rs</span>
                             </div>
                           </div>
                         </li>
@@ -1161,6 +1164,7 @@
     <!-- Main JS -->
     <script src="../assets/js/main.js"></script>
     <script src="../assets/js/dashboards-analytics.js"></script>
+    <script src="../assets/vendor/libs/typeahead-js/typeahead.js"></script>
     <!-- Place this tag in your head or just before your close body tag. -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
   </body>

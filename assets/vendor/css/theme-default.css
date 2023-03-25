@@ -836,7 +836,7 @@ html:not(.layout-menu-collapsed) .bg-menu-theme .menu-inner .menu-item .menu-lin
 }
 
 .app-brand .layout-menu-toggle {
-  background-color: #7f56d9;
+  background-color: #8674E2;
   border: 7px solid #f5f5f9;
 }
 .app-brand .layout-menu-toggle i {
@@ -916,7 +916,6 @@ html:not(.layout-menu-collapsed) .bg-menu-theme .menu-inner .menu-item .menu-lin
 .badge-notifications{
   position: absolute;
   top: 0;
-  right: 0px; 
   font-size: 10px;
 }
 .nav-item-bg{
@@ -933,7 +932,7 @@ html:not(.layout-menu-collapsed) .bg-menu-theme .menu-inner .menu-item .menu-lin
   border-radius: 50%;
   height: 55px;
   width: 55px;
-  background-color: rgb(105, 41, 202);
+  background-color: #8674E2;
   bottom: 1rem;
   right: 10px;
 }
@@ -947,4 +946,8 @@ html:not(.layout-menu-collapsed) .bg-menu-theme .menu-inner .menu-item .menu-lin
   font-weight: 500;
   color: #5A8DEE !important;
   text-shadow: -2px 2px 2px #598dee3d;
+}
+#eventList{
+  background-color:#f2f3f5;
+  border-radius: 50%;
 }
