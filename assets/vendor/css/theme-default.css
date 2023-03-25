@@ -992,6 +992,16 @@ html:not(.layout-menu-collapsed) .bg-menu-theme .menu-inner .menu-item .menu-lin
 .dark-style .help-center-bg-alt {
   background-color: #313249
 }
+.h5 {
+  font-weight: 500;
+  color: #5A8DEE !important;
+  text-shadow: -2px 2px 2px #598dee3d;
+}
+.card h5{
+  font-weight: 500;
+  color: #5A8DEE !important;
+  text-shadow: -2px 2px 2px #598dee3d;
+}
 .dropdown-header h5{
   font-weight: 500;
   color: #5A8DEE !important;
@@ -1034,4 +1044,86 @@ html:not(.layout-menu-collapsed) .bg-menu-theme .menu-inner .menu-item .menu-lin
   max-height: 25rem;
   overflow-y: scroll !important;
   width: 400px;
+}
+.faq-bg{
+  background: #f4f5fb;
+}
+.faq-header {
+  background: url(../../img/backgrounds/header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px !important;
+  border-radius: .375rem
+}
+
+.faq-header .input-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 55%
+}
+
+@media(max-width: 575.98px) {
+    .faq-header .input-wrapper {
+        max-width:70%
+    }
+}
+
+.faq-nav-icon {
+    font-size: 1.25rem
+}
+
+.light-style .bg-faq-section {
+    background-color: rgba(67,89,113,.05)
+}
+
+.dark-style .bg-faq-section {
+    background-color: rgba(255,255,255,.03)
+}
+
+
+.user-profile-header-banner img {
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  height: 250px
+}
+
+.user-profile-header {
+  margin-top: -2rem
+}
+
+.user-profile-header .user-profile-img {
+  border: 5px solid;
+  width: 120px
+}
+
+.light-style .user-profile-header .user-profile-img {
+  border-color: #fff
+}
+
+.dark-style .user-profile-header .user-profile-img {
+  border-color: #2b2c40
+}
+
+.dataTables_wrapper .card-header .dataTables_filter label {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important
+}
+
+@media(max-width: 767.98px) {
+  .user-profile-header-banner img {
+      height:150px
+  }
+
+  .user-profile-header .user-profile-img {
+      width: 100px
+  }
+}
+
+.verify-icon{
+  opacity: 0.5;
+  margin-top: -30px;
+}
+.border-dashed{
+  border: 1.5px dashed #ccc !important;
 }
