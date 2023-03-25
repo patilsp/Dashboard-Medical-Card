@@ -2800,9 +2800,13 @@ textarea.form-control-lg {
   font-size: 1rem;
   line-height: 1.5;
   letter-spacing: normal;
+  background-color: #f7f7f7;
+  padding: 7px 10px;
+  border-radius: 5px;
 }
 .btn-link:hover {
-  color: #6941c6;
+  color: #f7f7f7;
+  background-color: #6941c6;
 }
 .btn-link:disabled, .btn-link.disabled {
   color: rgba(67, 89, 113, 0.6);
@@ -4556,6 +4560,20 @@ textarea.form-control-lg {
 .btn-close-white {
   filter: invert(1) grayscale(100%) brightness(200%);
 }
+
+.modal-simple .btn-close {
+  right: -2rem;
+}
+.modal-simple .btn-close {
+  position: absolute;
+  top: -2rem;
+}
+
+button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled) {
+  cursor: pointer;
+}
+
+
 
 .toast {
   width: 350px;
@@ -7950,7 +7968,7 @@ form select.selectpicker.is-invalid ~ .btn {
 
 .modal .btn-close {
   background-color: #fff;
-  border-radius: 0.5rem;
+  border-radius: 0.7rem;
   opacity: 1;
   padding: 0.635rem;
   box-shadow: 0 0.125rem 0.25rem rgba(161, 172, 184, 0.4);
