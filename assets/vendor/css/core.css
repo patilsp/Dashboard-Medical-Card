@@ -3854,7 +3854,8 @@ textarea.form-control-lg {
   background-color: #fff;
   background-clip: border-box;
   border: 0 solid #d9dee3;
-  border-radius: 0.5rem;
+  border-radius: 0.8rem;
+  box-shadow: 0 0 30px rgba(34,34,34,0.25);
 }
 .card > hr {
   margin-right: 0;
@@ -15414,7 +15415,8 @@ html:not(.layout-menu-fixed) .menu-inner-shadow {
   min-width: 0;
   max-width: 100%;
   border-radius: 8px;
-  background-color: #F9E6EF;
+  /* background-color: #F9E6EF; */
+  background-color: #f0f7f9;
 }
 .layout-content-navbar .content-wrapper {
   width: 100%;
