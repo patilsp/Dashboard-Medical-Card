@@ -1,11 +1,11 @@
-
 /* login page code */
 .login-block{
   height: 600px;
-  margin: 10px auto;
+  width: 470px;
+  margin: 5px;
   margin-right: 5px;
   padding: 10px 25px;
-  border-radius: 10px;	
+  border-radius: 10px;
   display: flex;
   align-self: center;
   justify-content: center;

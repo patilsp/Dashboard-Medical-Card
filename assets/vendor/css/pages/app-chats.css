@@ -1,6 +1,6 @@
 .app-chat {
     position: relative;
-    height: calc(100vh - 11rem)
+    height: calc(100vh - 4rem)
 }
 
 @media(min-width: 1200px) {
@@ -28,7 +28,7 @@
 .app-chat .app-chat-contacts {
     position: absolute;
     left: calc(-21rem - 1rem);
-    height: calc(100vh - 11rem);
+    height:100vh;
     width: 21rem;
     flex-basis: 21rem;
     transition: all .25s ease
@@ -51,7 +51,7 @@
 }
 
 .app-chat .app-chat-contacts .sidebar-body {
-    height: calc(calc(100vh - 11rem) - 4.49rem)
+    height:100vh
 }
 
 @media(min-width: 1200px) {
@@ -100,7 +100,7 @@
     top: 0;
     left: calc(-21rem - 1rem);
     width: 21rem;
-    height: calc(100vh - 11rem);
+    height:100vh;
     opacity: 0;
     z-index: 5;
     transition: all .25s ease
@@ -129,7 +129,7 @@
 
 .app-chat .app-chat-history {
     position: relative;
-    height: calc(100vh - 11rem);
+    height:100vh;
     transition: all .25s ease
 }
 
@@ -148,7 +148,7 @@
 }
 
 .app-chat .app-chat-history .chat-history-body {
-    height: calc(100vh - 20.8rem);
+    height: calc(100vh - 13rem);
     padding: 1.25rem 1.25rem;
     overflow: hidden
 }
@@ -199,13 +199,15 @@
     margin: 0 1.5rem;
     border-radius: .375rem
 }
-
+.app-chat .sidebar-body .chat-contact-list li.active {
+    background-color: #696cff;
+}
 .app-chat .app-chat-sidebar-right {
     position: absolute;
     top: 0;
     right: calc(-21rem - 1rem);
     width: 21rem;
-    height: calc(100vh - 11rem);
+    height:100vh;
     opacity: 0;
     z-index: 5;
     transition: all .25s ease
@@ -249,6 +251,7 @@
 
 .light-style .app-chat .app-chat-contacts .sidebar-body .chat-contact-list li.active,.light-style .app-chat .app-chat-sidebar-left .sidebar-body .chat-contact-list li.active {
     color: #fff
+    
 }
 
 .light-style .app-chat .app-chat-contacts .sidebar-body .chat-contact-list li.active h6,.light-style .app-chat .app-chat-contacts .sidebar-body .chat-contact-list li.active .text-muted,.light-style .app-chat .app-chat-sidebar-left .sidebar-body .chat-contact-list li.active h6,.light-style .app-chat .app-chat-sidebar-left .sidebar-body .chat-contact-list li.active .text-muted {
@@ -282,7 +285,7 @@
 }
 
 .light-style .app-chat .app-chat-history .chat-history-body .chat-history .chat-message.chat-message-right .chat-message-text {
-    color: #fff
+    /* color: #fff */
 }
 
 .light-style .app-chat .app-chat-sidebar-right {

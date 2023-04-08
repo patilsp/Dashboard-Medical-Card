@@ -3402,8 +3402,8 @@ textarea.form-control-lg {
   list-style: none;
 }
 .navbar-nav .nav-link {
-  padding-right: 0;
-  padding-left: 0;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 .navbar-nav .dropdown-menu {
   position: static;
@@ -6100,7 +6100,7 @@ a.invert-bg-dark:hover, a.invert-bg-dark:focus {
 }
 
 .container-p-y:not([class^=pt-]):not([class*=" pt-"]) {
-  padding-top: 1.625rem !important;
+  padding-top: 0.825rem !important;
 }
 .container-p-y:not([class^=pb-]):not([class*=" pb-"]) {
   padding-bottom: 1.625rem !important;
@@ -15093,7 +15093,7 @@ html:not(.layout-menu-fixed) .menu-inner-shadow {
 .menu-vertical .menu-block,
 .menu-vertical .menu-inner > .menu-item,
 .menu-vertical .menu-inner > .menu-header {
-  width: 16.25rem;
+  width: 16rem;
 }
 .menu-vertical .menu-inner {
   flex-direction: column;
