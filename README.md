@@ -14,5 +14,10 @@ Medical E-Card - Admin Dashboard using HTML, CSS, JS, Jquery and Bootstrap.
 
 3.login page
 
-![image](https://user-images.githubusercontent.com/35653819/227881197-094ed0f2-aa03-42f7-9636-9e832e76318d.png)
+![login](https://user-images.githubusercontent.com/35653819/230716741-fb7fec91-3fcf-486f-8b81-957e26f54c73.PNG)
 
+4. sing up page
+![signup](https://user-images.githubusercontent.com/35653819/230716756-c660d2c6-655f-4edb-8420-12314a67289e.PNG)
+
+5. chats page
+![chats](https://user-images.githubusercontent.com/35653819/230716766-7a140b71-06e1-4dd6-a24b-2e47b3e180ce.PNG)
